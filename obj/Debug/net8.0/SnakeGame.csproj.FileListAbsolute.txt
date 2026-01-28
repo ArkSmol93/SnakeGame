@@ -1,0 +1,4 @@
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfo.cs
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.csproj.CoreCompileInputs.cache
