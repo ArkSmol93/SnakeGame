@@ -2,3 +2,14 @@ C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.GeneratedMSB
 C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfoInputs.cache
 C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfo.cs
 C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\bin\Debug\net8.0\SnakeGame.exe
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\bin\Debug\net8.0\SnakeGame.deps.json
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\bin\Debug\net8.0\SnakeGame.runtimeconfig.json
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\bin\Debug\net8.0\SnakeGame.dll
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\bin\Debug\net8.0\SnakeGame.pdb
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.sourcelink.json
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.dll
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\refint\SnakeGame.dll
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.pdb
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\SnakeGame.genruntimeconfig.cache
+C:\Users\smola\OneDrive\Pulpit\SnakeGame\obj\Debug\net8.0\ref\SnakeGame.dll

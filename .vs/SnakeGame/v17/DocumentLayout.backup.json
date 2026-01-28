@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|c:\\users\\smola\\onedrive\\pulpit\\snakegame\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|solutionrelative:snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|c:\\users\\smola\\onedrive\\pulpit\\snakegame\\pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|solutionrelative:pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|c:\\users\\smola\\onedrive\\pulpit\\snakegame\\obstakel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F3D45E4-53B8-4477-B4F2-EB0951889A71}|SnakeGame.csproj|solutionrelative:obstakel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pixel.cs",
+              "DocumentMoniker": "C:\\Users\\smola\\OneDrive\\Pulpit\\SnakeGame\\Pixel.cs",
+              "RelativeDocumentMoniker": "Pixel.cs",
+              "ToolTip": "C:\\Users\\smola\\OneDrive\\Pulpit\\SnakeGame\\Pixel.cs",
+              "RelativeToolTip": "Pixel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:31:59.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Obstakel.cs",
+              "DocumentMoniker": "C:\\Users\\smola\\OneDrive\\Pulpit\\SnakeGame\\Obstakel.cs",
+              "RelativeDocumentMoniker": "Obstakel.cs",
+              "ToolTip": "C:\\Users\\smola\\OneDrive\\Pulpit\\SnakeGame\\Obstakel.cs",
+              "RelativeToolTip": "Obstakel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:31:57.404Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Snake.cs",
               "ToolTip": "C:\\Users\\smola\\OneDrive\\Pulpit\\SnakeGame\\Snake.cs",
               "RelativeToolTip": "Snake.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAQwBQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-28T12:27:43.711Z",
               "EditorCaption": ""
