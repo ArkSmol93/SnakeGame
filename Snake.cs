@@ -164,108 +164,87 @@ class Program
             Console.Write("■");
 
 
-
-            ConsoleKeyInfo info = Console.ReadKey();
-
-            //Game Logic
-
-            switch (info.Key)
-
+            if (Console.KeyAvailable)
             {
 
-                case ConsoleKey.UpArrow:
+                ConsoleKeyInfo info = Console.ReadKey(true);
 
-                    movement = "UP";
 
-                    break;
 
-                case ConsoleKey.DownArrow:
+                //Game Logic
 
-                    movement = "DOWN";
+                switch (info.Key)
 
-                    break;
+                {
 
-                case ConsoleKey.LeftArrow:
+                    case ConsoleKey.UpArrow:
 
-                    movement = "LEFT";
+                        movement = "UP";
 
-                    break;
+                        break;
 
-                case ConsoleKey.RightArrow:
+                    case ConsoleKey.DownArrow:
 
-                    movement = "RIGHT";
+                        movement = "DOWN";
 
-                    break;
+                        break;
 
+                    case ConsoleKey.LeftArrow:
+
+                        movement = "LEFT";
+
+                        break;
+
+                    case ConsoleKey.RightArrow:
+
+                        movement = "RIGHT";
+
+                        break;
+
+                }
             }
 
-            if (movement == "UP")
+                if (movement == "UP")
 
-                hoofd.yPos--;
+                    hoofd.yPos--;
 
-            if (movement == "DOWN")
+                if (movement == "DOWN")
 
-                hoofd.yPos++;
+                    hoofd.yPos++;
 
-            if (movement == "LEFT")
+                if (movement == "LEFT")
 
-                hoofd.xPos--;
+                    hoofd.xPos--;
 
-            if (movement == "RIGHT")
+                if (movement == "RIGHT")
 
-                hoofd.xPos++;
+                    hoofd.xPos++;
 
-            //Hindernis treffen
+                //Hindernis treffen
 
-            if (hoofd.xPos == obstacleXpos && hoofd.yPos == obstacleYpos)
+                if (hoofd.xPos == obstacleXpos && hoofd.yPos == obstacleYpos)
 
-            {
+                {
 
-                score++;
+                    score++;
 
-                obstacleXpos = randomnummer.Next(1, screenwidth);
+                    obstacleXpos = randomnummer.Next(1, screenwidth);
 
-                obstacleYpos = randomnummer.Next(1, screenheight);
+                    obstacleYpos = randomnummer.Next(1, screenheight);
 
-            }
+                }
 
-            teljePositie.Insert(0, hoofd.xPos);
+                teljePositie.Insert(0, hoofd.xPos);
 
-            teljePositie.Insert(1, hoofd.yPos);
+                teljePositie.Insert(1, hoofd.yPos);
 
-            teljePositie.RemoveAt(teljePositie.Count - 1);
+                teljePositie.RemoveAt(teljePositie.Count - 1);
 
-            teljePositie.RemoveAt(teljePositie.Count - 1);
+                teljePositie.RemoveAt(teljePositie.Count - 1);
 
-            //Kollision mit Wände oder mit sich selbst
+                //Kollision mit Wände oder mit sich selbst
 
-            if (hoofd.xPos == 0 || hoofd.xPos == screenwidth - 1 || hoofd.yPos == 0 || hoofd.yPos == screenheight - 1)
-
-            {
-
-                Console.Clear();
-
-                Console.ForegroundColor = ConsoleColor.Red;
-
-                Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
-
-                Console.WriteLine("Game Over");
-
-                Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
-
-                Console.WriteLine("Dein Score ist: " + score);
-
-                Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
-
-                Environment.Exit(0);
-
-            }
-
-            for (int i = 0; i < telje.Count(); i += 2)
-
-            {
-
-                if (hoofd.xPos == telje[i] && hoofd.yPos == telje[i + 1])
+                if (hoofd.xPos == 0 || hoofd.xPos == screenwidth - 1 || hoofd.yPos == 0 || hoofd.yPos == screenheight - 1)
 
                 {
 
@@ -287,15 +266,42 @@ class Program
 
                 }
 
-            }
+                for (int i = 0; i < telje.Count(); i += 2)
 
-            Thread.Sleep(50);
+                {
+
+                    if (hoofd.xPos == telje[i] && hoofd.yPos == telje[i + 1])
+
+                    {
+
+                        Console.Clear();
+
+                        Console.ForegroundColor = ConsoleColor.Red;
+
+                        Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
+
+                        Console.WriteLine("Game Over");
+
+                        Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
+
+                        Console.WriteLine("Dein Score ist: " + score);
+
+                        Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
+
+                        Environment.Exit(0);
+
+                    }
+
+                }
+
+                Thread.Sleep(120);
+
+            }
 
         }
 
     }
 
-}
 
 
 
